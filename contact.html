@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ian Alvar" />
+    <meta name="description" content="For Portfolio" />
+    <link rel="stylesheet" href="style1.css" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <title>Fur Daddy</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hi! I'm Claire</h1>
+      <figure>
+        <img
+          src="/img/297993786_724776818621149_2097910556984811382_n.jpg"
+          alt="Claire"
+          title="Hi i'm Claire"
+          width="400"
+          height="400"
+        />
+        <figcaption>7 months old</figcaption>
+        <p>
+          This puppy was giving me happiness and stress free when im home. 🥰
+        </p>
+      </figure>
+    </header>
+
+    <hr />
+
+    <main>
+      <article>
+        <h2 id="contact">Contact Me</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Send me a message</legend>
+            <p>
+              <label for="firstName">Name:</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="Your name"
+                autocomplete="on"
+                autofocus
+                required
+              />
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Your email"
+                autocomplete="on"
+                required
+              />
+            </p>
+            <label for="message">Your Message:</label>
+
+            <br />
+
+            <textarea name="message" id="message" cols="30" rows="10">
+            </textarea>
+          </fieldset>
+          <button
+            type="submit"
+            formaction="https://httpbin.org/post"
+            formmethod="post"
+          >
+            Send
+          </button>
+          <button type="reset">Reset</button>
+        </form>
+      </article>
+      <article>
+        <h2>My Location</h2>
+        <address>
+          P-3 San Vicente Street, Central District, Mangagoy Bislig City 08311
+        </address>
+        <address>Phone: <a href="tel:09978561335">09978561335</a></address>
+        <address>
+          Email:
+          <a href="mail:atchupchuiko@gmail.com">atchupchuiko@gmail.com</a>
+        </address>
+      </article>
+    </main>
+    <footer>
+      <p>
+        <a href="#">Back to Top</a>
+      </p>
+
+      <hr />
+
+      <p>Copyright &copy; My first portfolio 2022</p>
+    </footer>
+  </body>
+</html>
